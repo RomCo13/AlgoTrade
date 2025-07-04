@@ -1,0 +1,20 @@
+{
+  "name": "algotrade-backend",
+  "version": "1.0.0",
+  "description": "Backend for AlgoTrade",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "rxjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
